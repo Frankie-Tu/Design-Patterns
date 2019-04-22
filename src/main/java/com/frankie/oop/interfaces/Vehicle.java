@@ -2,8 +2,8 @@ package com.frankie.oop.interfaces;
 // abstraction
 public interface Vehicle {
 
-    void setCarWeight(long newWeight);
-    long getCarWeight();
+    void setWeight(long newWeight);
+    long getWeight();
 
     void setNumOfSeats(int newNumOfSeats);
     int getNumOfSeats();

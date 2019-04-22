@@ -12,7 +12,7 @@ public class Suv extends Car {
         carWheels = 4;
         engineType = "Default Engine";
     }
-    // overloading
+    // constructor overloading
     public Suv(int doors, long weight, int seats, int wheels, String engine) {
         carDoors = doors;
         carWeight = weight;

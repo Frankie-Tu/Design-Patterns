@@ -19,12 +19,12 @@ public abstract class Car implements Vehicle {
     }
 
     @Override
-    public void setCarWeight(long newWeight) {
+    public void setWeight(long newWeight) {
         this.carWeight = newWeight;
     }
 
     @Override
-    public long getCarWeight() {
+    public long getWeight() {
         return carWeight;
     }
 

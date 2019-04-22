@@ -17,7 +17,7 @@ public class SuvTest{
 
     @Test
     public void testGetWeight() {
-        assertEquals(2500, mySuv.getCarWeight());
+        assertEquals(2500, mySuv.getWeight());
     }
 
     @Test
@@ -54,8 +54,8 @@ public class SuvTest{
 
     @Test
     public void testSetWeight() {
-        mySuv.setCarWeight(3000);
-        assertEquals(3000, mySuv.getCarWeight());
+        mySuv.setWeight(3000);
+        assertEquals(3000, mySuv.getWeight());
     }
 
     @Test
