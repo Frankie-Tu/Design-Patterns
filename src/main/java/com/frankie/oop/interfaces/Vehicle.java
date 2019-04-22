@@ -7,7 +7,4 @@ public interface Vehicle {
 
     void setNumOfSeats(int newNumOfSeats);
     int getNumOfSeats();
-
-    void setNumOfWheels(int newNumOfWheels);
-    int getNumOfWheels();
 }

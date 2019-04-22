@@ -44,40 +44,4 @@ public class SuvTest{
                 "Wheels: 4\n" +
                 "Engine: Gas V8", mySuv.describe());
     }
-
-    //setter tests
-    @Test
-    public void testSetDoors() {
-        mySuv.setCarDoors(5);
-        assertEquals(5, mySuv.getCarDoors());
-    }
-
-    @Test
-    public void testSetWeight() {
-        mySuv.setWeight(3000);
-        assertEquals(3000, mySuv.getWeight());
-    }
-
-    @Test
-    public void testSetSeats() {
-        mySuv.setNumOfSeats(5);
-        assertEquals(5, mySuv.getNumOfSeats());
-    }
-
-    @Test
-    public void testSetWheels() {
-        mySuv.setNumOfWheels(0);
-        assertEquals(0, mySuv.getNumOfWheels());
-    }
-
-    @Test
-    public void testSetEngine() {
-        mySuv.setEngineType("diesel");
-        assertEquals("diesel", mySuv.getEngineType());
-    }
-
-    @After
-    public void afterEach () {
-        System.out.println(mySuv.describe());
-    }
 }

@@ -38,12 +38,10 @@ public abstract class Car implements Vehicle {
         return carSeats;
     }
 
-    @Override
     public void setNumOfWheels(int newNumOfWheels) {
         this.carWheels = newNumOfWheels;
     }
 
-    @Override
     public int getNumOfWheels() {
         return carWheels;
     }
