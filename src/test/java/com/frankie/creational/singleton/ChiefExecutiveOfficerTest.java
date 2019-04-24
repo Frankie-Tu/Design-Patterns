@@ -15,7 +15,6 @@ public class ChiefExecutiveOfficerTest implements Runnable {
         assertEquals(myInstance1,myInstance2);
     }
 
-    @Test
     @Override
     public void run() {
         // multithreading test
