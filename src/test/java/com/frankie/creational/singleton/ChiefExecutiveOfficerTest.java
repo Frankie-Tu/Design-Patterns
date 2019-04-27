@@ -16,12 +16,17 @@ public class ChiefExecutiveOfficerTest implements Runnable {
     }
 
     @Override
+    @Test
     public void run() {
         // multithreading test
         Runnable Instance1 = new MultiThreadRun();
         Runnable Instance2 = new MultiThreadRun();
+        Runnable Instance3 = new MultiThreadRun();
+        Runnable Instance4 = new MultiThreadRun();
 
         new Thread(Instance1).start();
         new Thread(Instance2).start();
+        new Thread(Instance3).start();
+        new Thread(Instance4).start();
     }
 }
