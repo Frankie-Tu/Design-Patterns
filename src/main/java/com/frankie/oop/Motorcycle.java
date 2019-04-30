@@ -6,13 +6,7 @@ public class Motorcycle extends Bike {
 
     private String engineType;
 
-    Motorcycle() {
-        int bikeSeats = 2;
-        long bikeWeight = 150;
-        String engineType = "500cc";
-    }
-
-    Motorcycle(int seats, long weight, String engine) {
+    public Motorcycle(int seats, long weight, String engine) {
         this.bikeSeat = seats;
         this.bikeWeight = weight;
         this.engineType = engine;
