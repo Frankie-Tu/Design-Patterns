@@ -42,7 +42,7 @@ public class CloneableCar implements CloneableVehicle {
         try {
             clonedCar = (CloneableCar) super.clone();
             // in case if clone() is called on an object that does not implement Cloneable interface
-            // inference that extend cloneable interface
+            // or inference that extend cloneable interface
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
