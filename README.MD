@@ -10,6 +10,8 @@ To showcase examples of the popular and controversial design patterns to help ma
 ### Creational
 - [x] Singleton pattern
 - [x] Builder pattern
+- [x] Prototype pattern
+- [x] Factory pattern
 
 ### Structural
 - [ ] TBD
