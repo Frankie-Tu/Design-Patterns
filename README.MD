@@ -12,6 +12,7 @@ To showcase examples of the popular and controversial design patterns to help ma
 - [x] Builder pattern
 - [x] Prototype pattern
 - [x] Factory pattern
+- [ ] Abstract Factory pattern
 
 ### Structural
 - [ ] TBD
