@@ -5,13 +5,13 @@ import com.frankie.creational.abstractfactory.drinks.SoftDrink;
 import com.frankie.creational.abstractfactory.drinks.Water;
 import com.frankie.creational.abstractfactory.drinks.alcoholicdrinks.GenericBeer;
 import com.frankie.creational.abstractfactory.drinks.alcoholicdrinks.GenericWine;
-import com.frankie.creational.abstractfactory.drinks.enums.*;
 
 import java.security.InvalidParameterException;
 
-public class DrinkFactory {
-    public static Drink getDrink (TypeOfDrink typeOfDrink) throws InvalidParameterException{
-        switch (typeOfDrink) {
+public class DrinkFactory extends FoodOrderingService<Drink>{
+    @Override
+    public Drink order(TypeOfOrder typeOrder){
+        switch (typeOrder) {
             case WINE: {
                 return new GenericWine();
             }
@@ -27,6 +27,6 @@ public class DrinkFactory {
         }
         // throw exceptions when parameter is invalid
         throw new InvalidParameterException(String.format("Invalid type of drink : %s\n" +
-                "Valid options are WINE, BEER, SOFT_DRINK.", typeOfDrink));
+                "Valid options are WINE, BEER, SOFT_DRINK.", typeOrder));
     }
 }
